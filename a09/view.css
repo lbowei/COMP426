@@ -1,0 +1,18 @@
+.contents {
+  background-color: #99badd;
+  padding: 2%;
+  margin: auto;
+}
+.whole {
+  background-color: wheat;
+  border: thin black solid;
+}
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}

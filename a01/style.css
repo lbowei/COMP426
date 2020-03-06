@@ -1,0 +1,43 @@
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  background-color: #c0c0c0;
+}
+
+p {
+    border-style: solid;
+    border-width: 5px;
+  }
+  ul:hover { 
+    background-color: yellow;
+  }
+
+  .class1{
+      background: blue
+  }
+
+  #special{
+      background: green
+  }
+
+  div > p{
+      font-family: monospace
+  }
+
+  div p{
+      
+        height: 200px;
+        width: 50%;
+        background-color: powderblue;
+      
+  }
+  h4{
+      background: purple
+  }
+
+
+

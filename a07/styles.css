@@ -1,0 +1,152 @@
+
+body #header {
+    background-color: pink;
+    height: 10vh;
+}
+
+#header div.header-text {
+    text-align: center;
+    color: white;
+    font-size: 6vmin;
+}
+
+.howTo{
+    width: 500px;
+    margin:auto;
+    margin-top: 40px;
+    color: #494949;
+}
+
+#game-view {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 85vh;
+    width: 100%;
+    background-color: lavender;
+}
+
+#scoreboard {
+    height: 10%;
+}
+
+#score-panel {
+    background-color: mediumspringgreen;
+    color: azure;
+    border-radius: 10px;
+    font-size: 2vmin;
+}
+
+#score-panel p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#reset-button {
+    font-size: 2vmin;
+}
+
+#game-proper {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    height: 75%;
+}
+
+#board {
+    position: relative;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vmin;
+    width: 60vmin;
+    border-radius: 10px;
+}
+
+.game-tile {
+    position: absolute;
+    height: 13vmin;
+    width: 13vmin;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 5vmin;
+}
+
+.empty-tile {
+    background-color: #a0a0a0;
+}
+
+.tile-2 {
+    background-color: beige;
+    color: gray;
+}
+
+.tile-4 {
+    background-color: bisque;
+    color: gray;
+}
+
+.tile-8 {
+    background-color: darksalmon;
+    color: white;
+}
+
+.tile-16 {
+    background-color: sandybrown;
+    color: white;
+}
+
+.tile-32 {
+    background-color: orangered;
+    color: white;
+}
+
+.tile-64 {
+    background-color: red;
+    color: white;
+}
+
+.tile-128 {
+    background-color: orange;
+    color: white;
+}
+
+.tile-256 {
+    background-color: gold;
+    color: white;
+}
+
+.tile-512 {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.tile-1024 {
+    background-color: springgreen;
+    color: white;
+}
+
+.tile-2048 {
+    background-color: green;
+    color: white;
+}
+
+.tile-4096 {
+    background-color: turquoise;
+    color: white;
+}
+
+
+
+#game-message {
+    height: 15%;
+    font-size: 2vmin;
+}
+
+#credits {
+    text-align: right;
+    height: 5vh;
+    line-height: 5vh;
+    font-size: 2vh;
+    padding-right: 3%;
+}
